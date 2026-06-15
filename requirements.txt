@@ -1,0 +1,9 @@
+numpy>=1.23
+scipy>=1.9
+scikit-learn>=1.1
+hnswlib>=0.7
+# embedding encoding (to regenerate cached vectors)
+torch>=2.0
+transformers>=4.30
+# optional: FAISS-HNSW serving backend
+# faiss-cpu>=1.7

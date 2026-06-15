@@ -1,0 +1,6 @@
+data/
+**/embeddings/
+*.npz
+*.npy
+__pycache__/
+*.pyc
