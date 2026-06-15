@@ -377,7 +377,7 @@ def build_pool_features(
 ) -> Tuple[np.ndarray, List[str]]:
     """Label-free features derived from the bounded new-space candidate pool.
 
-    These describe what the SAME tight pool RIC-MG probes looks like, but
+    These describe what the SAME tight pool RIC-Gain probes looks like, but
     WITHOUT using qrels: pool-induced rank churn vs the adapter result, the
     strength/margin/entropy of the pool re-ranking, and how many pool top-k
     documents are new relative to the adapter top-k.  They let a learned
