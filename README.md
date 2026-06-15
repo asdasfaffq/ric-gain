@@ -10,6 +10,7 @@ core method (`experiments/ric_bridge.py`) and selected results; the full experim
 pipeline and data will be released upon publication.
 
 - `experiments/ric_bridge.py` — core: measured-gain attribution, submodular one-pass selection, mixed old/new index serving.
-- `results/` — selected result tables (multi-metric comparison; main significance test).
+- `results/multi_metric.csv` — multi-metric comparison (Recall@10 / nDCG@10 / Recall@100) over the four core settings; corresponds to the paper's **multi-metric / "Beyond Recall@10" diverse-BEIR table**.
+- `results/scifact_rank_tests.csv` — RIC-MG vs nine refresh-ordering baselines on SciFact (MiniLM->BGE), paired Wilcoxon with Holm correction; corresponds to the paper's **main ranking results table**. RIC-MG (`ric_mean = 0.733`) is rank-first and Holm-significant over every baseline (e.g. vs the learned scheduler, delta = +0.053, Holm p = 6.2e-7).
 
 All rights reserved by the authors. Please cite this work and contact the authors before reuse.
