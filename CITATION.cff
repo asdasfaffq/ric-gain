@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code or results, please cite the following work."
 title: "RIC-Gain: Measured-Gain Document Refresh for Dense-Retrieval Index Migration"
 abstract: >-
-  RIC-MG, a measured-gain refresh policy that decides which documents to re-embed
+  RIC-Gain, a measured-gain refresh policy that decides which documents to re-embed
   first when a dense-retrieval system upgrades its embedding model and serves a
   partially stale index under a fixed refresh budget. It measures recoverable
   recall gain on a bounded per-query candidate pool rather than predicting it.
@@ -10,18 +10,16 @@ type: software
 authors:
   - given-names: Yanxiao
     family-names: Li
+    email: p2525981@mpu.edu.mo
   - given-names: Junhao
     family-names: Wei
+    email: p2312195@mpu.edu.mo
   - given-names: Yifu
     family-names: Zhao
-  - given-names: Baili
-    family-names: Lu
-  - given-names: Tao
-    family-names: Yan
-  - given-names: Sio-Kei
-    family-names: Im
+    email: p2523269@mpu.edu.mo
   - given-names: Xu
     family-names: Yang
+    email: xuyang@mpu.edu.mo
   - given-names: Yapeng
     family-names: Wang
     email: yapengwang@mpu.edu.mo
